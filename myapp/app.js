@@ -4,7 +4,7 @@ const port = 3000
 const host = "http://127.0.0.1"
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send(`<h1>Benvenuto nel mio Blog!<h1>`)
 })
 
 app.listen(port, () => {
