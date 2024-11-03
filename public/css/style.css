@@ -4,7 +4,49 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 300px;
+header{
+    background-color: aqua;
+    padding: 1.5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.seriesPreview{
+    display: inline-block;
+    width: 25%;
+    margin: 1.5rem;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: aquamarine;
+}
+
+.listTitle{
+    margin-bottom: 1rem;
+}
+
+.listPic{
+    width: 200px;
     aspect-ratio: 1;
+    border-radius: 10px;
+}
+
+.listContent{
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0.5rem;
 }
